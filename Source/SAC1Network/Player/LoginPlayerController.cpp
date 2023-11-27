@@ -3,3 +3,16 @@
 
 #include "LoginPlayerController.h"
 
+ALoginPlayerController::ALoginPlayerController()
+{
+}
+
+void ALoginPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void ALoginPlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
