@@ -17,6 +17,8 @@ class SAC1NETWORK_API ALoginPlayerController : public APlayerController
 public:
 	ALoginPlayerController();
 
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -24,5 +26,6 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 	
 };

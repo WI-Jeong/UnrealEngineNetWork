@@ -57,9 +57,20 @@ DECLARE_LOG_CATEGORY_EXTERN(SAC1, Log, All);
 
 #define   LOGSTRING(str)      UE_LOG(SAC1, Warning, TEXT("%S : %S"), *LOG_CALLINFO, *str);
 
-/**
- * 
- */
+
+USTRUCT()
+struct FJoinInfo
+{
+	GENERATED_USTRUCT_BODY()
+
+public:
+	FString		ID;
+	FString		Password;
+	FString		Age;
+	FString		PhoneNumber;
+	bool		Login;
+};
+
 UCLASS()
 class SAC1NETWORK_API UGameInfo : public UObject
 {
