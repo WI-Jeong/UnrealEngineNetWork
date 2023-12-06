@@ -96,3 +96,4 @@ Plugins/**/Intermediate/*
 # End of https://www.toptal.com/developers/gitignore/api/unrealengine
 Content/Movies/Sample2.mp4
 Client/SAC1Network/Content/Paks/SAC1Network-Windows.ucas
+SACNetwork/WindowsServer/SACNetwork/Binaries/Win64/SACNetworkServer.pdb
