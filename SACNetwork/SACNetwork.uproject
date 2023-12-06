@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{D5E52F22-4B2A-C80F-ABEA-2BBD15C9FF32}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SACNetwork",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
